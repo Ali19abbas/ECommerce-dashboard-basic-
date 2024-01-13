@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SELLERS DASHBOARD</title>
+    <style>
+        body{
+            background-color: blueviolet;
+        }
+       
+    </style>
+</head>
+<body>
+   <div id="container" style="background-color: rgb(199, 110, 22);">
+    <H1 id="heading">WELCOME TO DASHBOARD</H1>
+    <form id="form">
+     <label for="price">SELLING PRICE</label> <input type="text" id="price">
+     <label for="name">PRODUCT NAME</label> <input type="text" id="name">
+      <label for="cat">CATAGORY</label> 
+      <select name="" id="cat">
+        <option value="">Choose a catagory</option> 
+        <option value="elec">ELECTRONICS</option> 
+        <option value="food">FOOD</option>
+        <option value="fas">FASHON</option>     </select>
+        <button type="submit">ADD</button>
+    </form>
+</div>
+        <div style="background-color: rgb(0, 211, 70);">
+        <div class="container2">
+             <h2 class="heading2">ELECTRONICS</h2>
+            <ul id="lista">
+
+
+            </ul>
+        </div>
+        <div class="container2">
+            <h2 class="heading2">FOOD</h2>
+            <ul id="listb">
+
+                
+            </ul>
+        </div>
+        <div class="container2">
+            <h2 class="heading2">FASHION</h2>
+            <ul id="listc">
+
+                
+            </ul>
+        </div>
+    </div>
+
+
+
+     
+   
+   
+</body>
+<script src="main.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.5/axios.min.js"> </script>
+</html>
